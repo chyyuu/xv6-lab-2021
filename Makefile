@@ -189,8 +189,15 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_mmaptest\
-
-
+	$U/_copy\
+	$U/_exec\
+	$U/_fork\
+	$U/_forkexec\
+	$U/_list\
+	$U/_open\
+	$U/_pipe1\
+	$U/_pipe2\
+	$U/_redirect\
 
 ifeq ($(LAB),$(filter $(LAB), lock))
 UPROGS += \
